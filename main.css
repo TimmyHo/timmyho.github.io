@@ -1,0 +1,56 @@
+html.wf-loading * {
+    opacity: 0;
+}
+
+body {
+    font-family: 'Source Code Pro', monospace;
+    background: burlywood;    
+}
+
+
+.title {
+    text-align: center;
+    color: white;
+    text-shadow: 
+        -1px 0 black, 
+        2px 0 black, 
+        0 -1px black,
+        0 2px black;
+}
+
+.fa-github {
+    border: 2px solid black;
+    background: white;
+    color: black;
+}
+
+
+.fa-linkedin-in {
+    border: 2px solid black;
+    background: #0074af;
+    color: white;
+}
+
+.fa-envelope {
+    border: 2px solid black;
+    background: goldenrod;
+    color: black;
+}
+
+
+.fa-file-alt {
+    border: 2px solid black;
+    background: coral;
+    color: black;
+}
+
+.icon {
+    font-size: 1.25em;
+    border-radius: 50%;
+    padding: 4px;
+    box-sizing: border-box;
+    text-align: center;
+    height: 32px;
+    width: 32px;
+    margin: 0px;
+}
