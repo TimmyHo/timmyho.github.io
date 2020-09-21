@@ -25,12 +25,18 @@
         <div class="container-fluid">
             <h1 class="title">Timothy Hsiung</h1>
 
-            <div class="card bg-light border-dark py-3 mx-auto w-75">
+            <!-- <div class="row">
+
+            </div> -->
+            <div class="col-12 col-md-8 card bg-light border-dark mx-auto px-2 py-3">
             <div class="row">
-                <div class="col-3">
-                    <div class="d-flex justify-content-center">
-                        <img src="images/tim_headshot.jpg" class="img-fluid rounded border border-dark w-75 " />
+                <div class="col-12 col-md-3">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-8 col-md-12">
+                            <img src="images/tim_headshot.jpg" class="img-fluid rounded border border-dark" />
+                        </div>
                     </div>
+ 
                     <div class="mt-2 d-flex justify-content-center">
                         <a href="https://www.linkedin.com/in/tim-hsiung/" class="mx-1"><i class="fab fa-linkedin-in icon"></i></a>
                         <a href="http://www.github.com/TimmyHo" class="mx-1"><i class="fab fa-github icon"></i></a>
@@ -38,67 +44,31 @@
                         <a href="files/Timothy Hsiung - Resume.pdf" download class="mx-1"><i class="far fa-file-alt icon"></i></a>
                     </div>
                 </div>
-                <div class="col-8 p-2">
+                <div class="col-12 col-md-8 mt-2 mt-md-0">
                     A software engineer from Canada who worked in the US and now lives in Taiwan.
-                    
                     <br><br>
-                    Worked in a diverse set of technical roles in different companies, cultures and languages (both human and programming). Strong emphasis on teamwork, problem solving, and learning.
-                    <br><br>
+
+                    <span class="d-none d-md-inline">
+                        Worked in a diverse set of technical roles in different companies, cultures and languages (both human and programming). Strong emphasis on teamwork, problem solving, and learning.
+                        <br><br>
+                    </span>
+
                     Currently interested in web development (ie: ReactJS, Express/NodeJS, MongoDB).
                 </div>
             </div>
         </div>
 
         
-        <h2 class="title mt-2">Personal Projects</h2>
+        <h2 class="title mt-1">Personal Projects</h2>
 
         <div class="row">
-            <div class="col-6">
-                <div class="card bg-light border-dark p-2">
-                    <div class="row">                 
-                        <div class="col-4 align-self-center">
-                            <img src="images/memory_game.png" class="card-img border border-dark"/>
-                        </div>
-                        <div class="col-8">
-                            <h4>Memory Game</h4>
-                            <div><em>HTML/CSS/JS</em></div>
-                            <div class="card my-2 p-2 small">A digital version of the children's card game "Memory"</div>
-                            <div>
-                                <span><a href="https://github.com/TimmyHo/memory_game" class="btn btn-outline-info"><i class="far fa-file-code"></i> Source</a></span>
-                                <span><a href="https://memory-game.made-by-tim.com" class="btn btn-success"><i class="fas fa-bolt"></i> Demo</a></span> 
-                            </div>
-                        </div> 
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-6">
+            <div class="col-12 col-md-6">
                 <div class="card bg-light border-dark p-2">
                     <div class="row">
-                        <div class="col-4 align-self-center">
-                            <img src="images/youbike_api.png" class="card-img border border-dark"/>
-                        </div>
-                        <div class="col-8">
-                            <h4>Youbike API</h4>
-                            <div><em>Express/Mongo, Mocha</em></div>
-                            <div class="card my-2 p-2 small">An API server returning Youbike data for different queries</div>
-                            <div>
-                                <span><a href="https://github.com/TimmyHo/youbike_api_server" class="btn  btn-outline-info"><i class="far fa-file-code"></i> Source</a></span>
-                                <span><a href="https://youbike-api.made-by-tim.com" class="btn btn-success"><i class="fas fa-bolt"></i> Demo</a></span> 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-   
-        
-            <div class="col-6">
-                <div class="card bg-light border-dark p-2 mt-2">
-                    <div class="row">
-                        <div class="col-4 align-self-center">
+                        <div class="col-12 col-md-4 align-self-center">
                             <img src="images/pokemon_rps.png" class="card-img border border-dark"/>
                         </div>
-                        <div class="col-8">
+                        <div class="col-12 col-md-8">
                             <h4>Pokemon RPS</h4>
                             <div><em>React, Express/Mongo</em></div>
                             <div class="card my-2 p-2 small">[Work In Progress] A Pokemon game battling with rock-paper-scissors</div>
@@ -111,6 +81,44 @@
                 </div>
             </div>
 
+
+            <div class="col-md-6 mt-2 mt-md-0">
+                <div class="card bg-light border-dark p-2">
+                    <div class="row">
+                        <div class="col-12 col-md-4 align-self-center">
+                            <img src="images/youbike_api.png" class="card-img border border-dark"/>
+                        </div>
+                        <div class="col-12 col-md-8">
+                            <h4>Youbike API</h4>
+                            <div><em>Express/Mongo, Mocha</em></div>
+                            <div class="card my-2 p-2 small">An API server returning Youbike data for different queries</div>
+                            <div>
+                                <span><a href="https://github.com/TimmyHo/youbike_api_server" class="btn  btn-outline-info"><i class="far fa-file-code"></i> Source</a></span>
+                                <span><a href="https://youbike-api.made-by-tim.com" class="btn btn-success"><i class="fas fa-bolt"></i> Demo</a></span> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+   
+            <div class="col-12 col-md-6 my-2">
+                <div class="card bg-light border-dark p-2">
+                    <div class="row">                 
+                        <div class="col-12 col-md-4 align-self-center">
+                            <img src="images/memory_game.png" class="card-img border border-dark"/>
+                        </div>
+                        <div class="col-12 col-md-8">
+                            <h4>Memory Game</h4>
+                            <div><em>HTML/CSS/JS</em></div>
+                            <div class="card my-2 p-2 small">A digital version of the children's card game "Memory"</div>
+                            <div>
+                                <span><a href="https://github.com/TimmyHo/memory_game" class="btn btn-outline-info"><i class="far fa-file-code"></i> Source</a></span>
+                                <span><a href="https://memory-game.made-by-tim.com" class="btn btn-success"><i class="fas fa-bolt"></i> Demo</a></span> 
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
         </div>
 
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
